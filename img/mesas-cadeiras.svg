@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Mesas e cadeiras para aluguel">
+  <defs>
+    <linearGradient id="fundo-mc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262c"/>
+      <stop offset="1" stop-color="#131316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo-mc)"/>
+  <circle cx="400" cy="260" r="230" fill="#ffd21f" opacity="0.07"/>
+
+  <!-- mesa reta -->
+  <g>
+    <rect x="180" y="300" width="440" height="26" rx="8" fill="#f4f4f6"/>
+    <rect x="212" y="326" width="18" height="150" fill="#8f8f99"/>
+    <rect x="570" y="326" width="18" height="150" fill="#8f8f99"/>
+    <rect x="196" y="468" width="50" height="12" rx="6" fill="#8f8f99"/>
+    <rect x="554" y="468" width="50" height="12" rx="6" fill="#8f8f99"/>
+  </g>
+
+  <!-- cadeiras atrás -->
+  <g fill="#2e2e36" stroke="#3d3d46" stroke-width="3">
+    <g transform="translate(230 170)">
+      <rect x="0" y="0" width="70" height="96" rx="12"/>
+      <rect x="-6" y="92" width="82" height="16" rx="8"/>
+    </g>
+    <g transform="translate(365 170)">
+      <rect x="0" y="0" width="70" height="96" rx="12"/>
+      <rect x="-6" y="92" width="82" height="16" rx="8"/>
+    </g>
+    <g transform="translate(500 170)">
+      <rect x="0" y="0" width="70" height="96" rx="12"/>
+      <rect x="-6" y="92" width="82" height="16" rx="8"/>
+    </g>
+  </g>
+
+  <!-- cadeiras na frente (pernas) -->
+  <g fill="#2e2e36">
+    <rect x="240" y="326" width="10" height="140" rx="5"/>
+    <rect x="288" y="326" width="10" height="140" rx="5"/>
+    <rect x="375" y="326" width="10" height="140" rx="5"/>
+    <rect x="423" y="326" width="10" height="140" rx="5"/>
+    <rect x="510" y="326" width="10" height="140" rx="5"/>
+    <rect x="558" y="326" width="10" height="140" rx="5"/>
+  </g>
+
+  <!-- pincelada amarela -->
+  <path d="M120 520 q280 34 560 -8" stroke="#ffd21f" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.85"/>
+</svg>

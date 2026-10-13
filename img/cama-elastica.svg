@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cama elástica infantil">
+  <defs>
+    <linearGradient id="fundo-ce" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262c"/>
+      <stop offset="1" stop-color="#131316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo-ce)"/>
+  <circle cx="400" cy="300" r="240" fill="#25d366" opacity="0.06"/>
+
+  <!-- arco da cama elástica -->
+  <path d="M120 300 a280 110 0 0 1 560 0" fill="none" stroke="#ffd21f" stroke-width="26" stroke-linecap="round"/>
+  <path d="M132 316 a268 96 0 0 1 536 0" fill="none" stroke="#25d366" stroke-width="10" opacity="0.75"/>
+
+  <!-- pés / redes -->
+  <g stroke="#3d3d46" stroke-width="12" stroke-linecap="round">
+    <line x1="170" y1="330" x2="146" y2="440"/>
+    <line x1="630" y1="330" x2="654" y2="440"/>
+    <line x1="330" y1="392" x2="322" y2="452"/>
+    <line x1="470" y1="392" x2="478" y2="452"/>
+  </g>
+
+  <!-- mola / pulo -->
+  <path d="M200 210 q90 -110 180 0" stroke="#ffd21f" stroke-width="7" fill="none" stroke-dasharray="12 14" stroke-linecap="round"/>
+  <circle cx="420" cy="170" r="22" fill="#ffd21f"/>
+  <rect x="404" y="192" width="32" height="44" rx="14" fill="#f4f4f6"/>
+
+  <!-- chão -->
+  <rect y="452" width="800" height="148" fill="#0d0d0f"/>
+  <path d="M120 452 h560" stroke="#ffd21f" stroke-width="4" opacity="0.4"/>
+</svg>

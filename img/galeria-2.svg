@@ -1,0 +1,18 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Cadeiras">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262c"/>
+      <stop offset="1" stop-color="#131316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo)"/>
+  <circle cx="400" cy="300" r="250" fill="#ffd21f" opacity="0.05"/>
+
+  <g transform="translate(140 240)" fill="#2e2e36" stroke="#3d3d46" stroke-width="3"><rect width="90" height="110" rx="14"/><rect x="-8" y="104" width="106" height="16" rx="8"/><rect x="4" y="120" width="10" height="60"/><rect x="76" y="120" width="10" height="60"/></g>
+  <g transform="translate(320 240)" fill="#2e2e36" stroke="#3d3d46" stroke-width="3"><rect width="90" height="110" rx="14"/><rect x="-8" y="104" width="106" height="16" rx="8"/><rect x="4" y="120" width="10" height="60"/><rect x="76" y="120" width="10" height="60"/></g>
+  <g transform="translate(500 240)" fill="#2e2e36" stroke="#3d3d46" stroke-width="3"><rect width="90" height="110" rx="14"/><rect x="-8" y="104" width="106" height="16" rx="8"/><rect x="4" y="120" width="10" height="60"/><rect x="76" y="120" width="10" height="60"/></g>
+  <g transform="translate(230 360)" fill="#2e2e36" stroke="#3d3d46" stroke-width="3"><rect width="90" height="110" rx="14"/><rect x="-8" y="104" width="106" height="16" rx="8"/><rect x="4" y="120" width="10" height="60"/><rect x="76" y="120" width="10" height="60"/></g>
+  <g transform="translate(410 360)" fill="#2e2e36" stroke="#3d3d46" stroke-width="3"><rect width="90" height="110" rx="14"/><rect x="-8" y="104" width="106" height="16" rx="8"/><rect x="4" y="120" width="10" height="60"/><rect x="76" y="120" width="10" height="60"/></g>
+  <path d="M100 560 q300 26 600 -8" stroke="#ffd21f" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <text x="400" y="140" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="30" fill="#ffd21f" opacity="0.9">Cadeiras</text>
+</svg>

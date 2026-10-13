@@ -1,0 +1,22 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Aniversario">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262c"/>
+      <stop offset="1" stop-color="#131316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo)"/>
+  <circle cx="400" cy="300" r="250" fill="#ffd21f" opacity="0.05"/>
+  <path d="M0 120 Q200 200 400 130 T800 120" stroke="#3a3a42" stroke-width="3" fill="none"/>
+  <g fill="#ffd21f"><circle cx="100" cy="152" r="7"/><circle cx="250" cy="172" r="7"/><circle cx="400" cy="133" r="7"/><circle cx="550" cy="140" r="7"/><circle cx="700" cy="127" r="7"/></g>
+  <ellipse cx="240" cy="320" rx="24" ry="32" fill="#ffd21f"/>
+  <path d="M240 352 q-6 26 4 50" stroke="#3d3d46" stroke-width="3" fill="none"/>
+  <ellipse cx="320" cy="360" rx="20" ry="27" fill="#f4f4f6" opacity="0.85"/>
+  <path d="M320 387 q6 22 -2 42" stroke="#3d3d46" stroke-width="3" fill="none"/>
+  <ellipse cx="170" cy="372" rx="19" ry="25" fill="#25d366" opacity="0.8"/>
+  <path d="M170 397 q-5 20 3 38" stroke="#3d3d46" stroke-width="3" fill="none"/>
+  <rect x="480" y="240" width="220" height="130" rx="12" fill="#2e2e36" stroke="#3d3d46" stroke-width="3"/>
+  <text x="590" y="318" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="42" fill="#ffd21f">FESTA</text>
+  <path d="M120 520 q280 34 560 -8" stroke="#ffd21f" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.85"/>
+  <text x="400" y="596" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="28" fill="#ffd21f" opacity="0.9">Aniversario</text>
+</svg>

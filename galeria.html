@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria — Fotos dos produtos e eventos | João Reis Eventos</title>
+  <meta name="description" content="Galeria de fotos dos produtos e montagens da João Reis Eventos: mesas, cadeiras, cama elástica e eventos em Águas Lindas de Goiás.">
+  <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700;800&family=Caveat:wght@600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== Cabeçalho ===== -->
+  <header class="cabecalho">
+    <div class="container cabecalho__inner">
+      <a class="logo" href="index.html">
+        <img src="img/logo.svg" alt="João Reis Eventos">
+        <span>João Reis<small>Eventos</small></span>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="nav" id="site-nav" aria-label="Navegação principal">
+        <a href="index.html">Início</a>
+        <a href="servicos.html">Serviços</a>
+        <a href="galeria.html" class="ativo">Galeria</a>
+        <a href="contato.html">Contato</a>
+        <a class="btn btn--amarelo" href="contato.html">Pedir orçamento</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero interno ===== -->
+    <section class="hero-interno">
+      <div class="container">
+        <span class="rotulo">Galeria</span>
+        <h1>Fotos dos nossos <span class="pincelada">produtos e montagens</span></h1>
+        <p>Toque em uma foto para ver em tamanho ampliado. Use os filtros para ver só o que interessa.</p>
+      </div>
+    </section>
+
+    <!-- ===== Galeria ===== -->
+    <section class="secao">
+      <div class="container">
+        <div class="filtros" role="group" aria-label="Filtrar fotos por categoria">
+          <button class="filtro ativo" data-filtro="todos">Todos</button>
+          <button class="filtro" data-filtro="mesas">Mesas e cadeiras</button>
+          <button class="filtro" data-filtro="camas">Cama elástica</button>
+          <button class="filtro" data-filtro="eventos">Eventos</button>
+        </div>
+
+        <div class="galeria">
+          <div class="galeria__item animar" data-categoria="mesas">
+            <span class="etiqueta">Cadeiras</span>
+            <img src="img/foto-cadeiras.jpg" alt="Cadeiras brancas empilhadas prontas para o evento">
+          </div>
+          <div class="galeria__item animar" data-categoria="mesas">
+            <span class="etiqueta">Montagem</span>
+            <img src="img/foto-cadeiras-linhas.jpg" alt="Cadeiras alinhadas prontas para os convidados">
+          </div>
+          <div class="galeria__item animar" data-categoria="camas">
+            <span class="etiqueta">Cama elástica</span>
+            <img src="img/foto-cama-elastica.jpg" alt="Cama elástica infantil colorida">
+          </div>
+          <div class="galeria__item animar" data-categoria="mesas">
+            <span class="etiqueta">Estoque</span>
+            <img src="img/foto-estoque.jpg" alt="Estoque de cadeiras da João Reis Eventos">
+          </div>
+          <div class="galeria__item animar" data-categoria="eventos">
+            <span class="etiqueta">Combo</span>
+            <img src="img/hero.jpg" alt="Cadeiras e cama elástica para o seu evento">
+          </div>
+          <div class="galeria__item animar" data-categoria="eventos">
+            <span class="etiqueta">Anúncio oficial</span>
+            <img src="img/anuncio-oficial.jpg" alt="Anúncio oficial da João Reis Eventos">
+          </div>
+        </div>
+
+        <div class="cta animar" style="margin-top:44px;">
+          <div>
+            <span class="manuscrita">gostou do que viu?</span>
+            <h2>Consulte a sua data agora mesmo</h2>
+            <p>Chame no WhatsApp e veja a disponibilidade para o seu evento.</p>
+          </div>
+          <a class="btn btn--wpp" href="#" data-wpp="Olá! Vim pelo site e gostaria de um orçamento.">
+            <svg class="icone-wpp" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 14.9L2 22l5.3-1.4A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 .9c.2.1.4.2.4.3.1.2.1.7-.1 1.3z"/></svg>
+            Chamar no WhatsApp
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Rodapé ===== -->
+  <footer class="rodape">
+    <div class="container">
+      <div class="rodape__grid">
+        <div>
+          <a class="logo" href="index.html" style="margin-bottom:14px;">
+            <img src="img/logo.svg" alt="João Reis Eventos">
+            <span>João Reis<small>Eventos</small></span>
+          </a>
+          <p>Aluguel de mesas, cadeiras e cama elástica para tornar o seu evento especial. Atendimento em Águas Lindas de Goiás e região.</p>
+        </div>
+
+        <div>
+          <h4>Navegação</h4>
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="galeria.html">Galeria</a></li>
+            <li><a href="contato.html">Contato e orçamento</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contato</h4>
+          <ul>
+            <li>📍 Conjunto A, Lote 48 — Setor 8<br><small>Águas Lindas de Goiás - GO, 72910-046</small></li>
+            <li>📞 <a href="https://wa.me/5561992937016" target="_blank" rel="noopener">(61) 99293-7016</a></li>
+            <li>💬 <a href="#" data-wpp="Olá! Vim pelo site e gostaria de um orçamento.">Falar no WhatsApp</a></li>
+            <li>🕓 Todos os dias, das 07:00 às 19:00</li>
+            <li>📍 <a href="https://www.google.com/maps/search/?api=1&query=Jo%C3%A3o+Reis+Aluguel+de+Mesas+e+Cadeiras+%C3%81guas+Lindas+de+Goi%C3%A1s" target="_blank" rel="noopener">Como chegar no Google Maps</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rodape__base">
+        <span>© <span id="ano-atual">2026</span> João Reis Eventos — Todos os direitos reservados.</span>
+        <span>Águas Lindas de Goiás e região</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Botão flutuante WhatsApp ===== -->
+  <a class="wpp-flutuante" href="#" data-wpp="Olá! Vim pelo site e gostaria de um orçamento." aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.7 14.9L2 22l5.3-1.4A10 10 0 1 0 12 2zm5.3 14.1c-.2.6-1.3 1.2-1.8 1.2-.5.1-1 .1-3.2-.7-2.7-1.1-4.4-3.9-4.5-4.1-.1-.2-1-1.4-1-2.6s.6-1.8.9-2.1c.2-.2.5-.3.7-.3h.5c.2 0 .4 0 .6.5l.8 2c.1.2.1.3 0 .5l-.4.5c-.1.2-.3.3-.1.6.2.3.8 1.3 1.7 2.1 1.2 1 2.1 1.4 2.4 1.5.2.1.4.1.6-.1l.8-1c.2-.2.3-.2.6-.1l2 .9c.2.1.4.2.4.3.1.2.1.7-.1 1.3z"/></svg>
+  </a>
+
+  <!-- ===== Lightbox ===== -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-label="Visualização da foto">
+    <button class="lightbox__fechar" aria-label="Fechar">✕</button>
+    <button class="lightbox__nav lightbox__nav--ant" aria-label="Foto anterior">‹</button>
+    <img src="" alt="">
+    <button class="lightbox__nav lightbox__nav--prox" aria-label="Próxima foto">›</button>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

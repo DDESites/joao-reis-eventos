@@ -1,0 +1,23 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" role="img" aria-label="Area infantil">
+  <defs>
+    <linearGradient id="fundo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262c"/>
+      <stop offset="1" stop-color="#131316"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#fundo)"/>
+  <circle cx="400" cy="300" r="250" fill="#ffd21f" opacity="0.05"/>
+  <path d="M150 300 a250 100 0 0 1 500 0" fill="none" stroke="#ffd21f" stroke-width="24" stroke-linecap="round"/>
+  <path d="M162 314 a238 88 0 0 1 476 0" fill="none" stroke="#25d366" stroke-width="9" opacity="0.75"/>
+  <g stroke="#3d3d46" stroke-width="11" stroke-linecap="round">
+    <line x1="196" y1="326" x2="176" y2="430"/>
+    <line x1="604" y1="326" x2="624" y2="430"/>
+    <line x1="330" y1="384" x2="324" y2="440"/>
+    <line x1="470" y1="384" x2="476" y2="440"/>
+  </g>
+  <circle cx="400" cy="180" r="20" fill="#ffd21f"/>
+  <rect x="386" y="200" width="28" height="40" rx="13" fill="#f4f4f6"/>
+  <rect y="440" width="800" height="160" fill="#0d0d0f"/>
+  <path d="M150 440 h500" stroke="#ffd21f" stroke-width="4" opacity="0.4"/>
+  <text x="400" y="120" text-anchor="middle" font-family="Archivo, Arial, sans-serif" font-weight="800" font-size="30" fill="#ffd21f" opacity="0.9">Area infantil</text>
+</svg>

@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 810" role="img" aria-label="Festa montada com mesas, cadeiras e iluminação">
+  <defs>
+    <linearGradient id="ceu" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#26262c"/>
+      <stop offset="1" stop-color="#131316"/>
+    </linearGradient>
+    <radialGradient id="brilho" cx="0.5" cy="0.35" r="0.75">
+      <stop offset="0" stop-color="#ffd21f" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#ffd21f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1440" height="810" fill="url(#ceu)"/>
+  <rect width="1440" height="810" fill="url(#brilho)"/>
+
+  <!-- cordão de luzes -->
+  <path d="M0 120 Q360 220 720 140 T1440 130" stroke="#3a3a42" stroke-width="3" fill="none"/>
+  <g fill="#ffd21f">
+    <circle cx="120" cy="163" r="8"/><circle cx="260" cy="185" r="8"/>
+    <circle cx="410" cy="196" r="8"/><circle cx="560" cy="180" r="8"/>
+    <circle cx="720" cy="142" r="8"/><circle cx="880" cy="146" r="8"/>
+    <circle cx="1030" cy="160" r="8"/><circle cx="1180" cy="152" r="8"/>
+    <circle cx="1330" cy="136" r="8"/>
+  </g>
+  <g fill="#ffd21f" opacity="0.25">
+    <circle cx="120" cy="163" r="18"/><circle cx="410" cy="196" r="18"/>
+    <circle cx="720" cy="142" r="18"/><circle cx="1030" cy="160" r="18"/>
+    <circle cx="1330" cy="136" r="18"/>
+  </g>
+
+  <!-- mesa redonda com toalha -->
+  <g>
+    <ellipse cx="360" cy="560" rx="150" ry="34" fill="#f4f4f6"/>
+    <path d="M210 560 L232 700 h256 L510 560 Z" fill="#e6e6ea"/>
+    <rect x="352" y="594" width="16" height="110" fill="#9a9aa4"/>
+    <ellipse cx="360" cy="708" rx="52" ry="12" fill="#9a9aa4"/>
+    <!-- centro de mesa -->
+    <rect x="350" y="512" width="20" height="34" rx="6" fill="#ffd21f"/>
+    <circle cx="360" cy="500" r="14" fill="#fff" opacity="0.9"/>
+  </g>
+
+  <!-- cadeiras (silhuetas) -->
+  <g fill="#2e2e36" stroke="#3d3d46" stroke-width="3">
+    <g transform="translate(150 560)">
+      <rect x="0" y="-70" width="54" height="60" rx="8"/>
+      <rect x="-4" y="-6" width="62" height="12" rx="6"/>
+      <rect x="0" y="4" width="8" height="46"/><rect x="46" y="4" width="8" height="46"/>
+    </g>
+    <g transform="translate(520 560)">
+      <rect x="0" y="-70" width="54" height="60" rx="8"/>
+      <rect x="-4" y="-6" width="62" height="12" rx="6"/>
+      <rect x="0" y="4" width="8" height="46"/><rect x="46" y="4" width="8" height="46"/>
+    </g>
+    <g transform="translate(300 660) scale(1.15)">
+      <rect x="0" y="-70" width="54" height="60" rx="8"/>
+      <rect x="-4" y="-6" width="62" height="12" rx="6"/>
+      <rect x="0" y="4" width="8" height="46"/><rect x="46" y="4" width="8" height="46"/>
+    </g>
+  </g>
+
+  <!-- cama elástica ao fundo à direita -->
+  <g transform="translate(1020 430)">
+    <ellipse cx="180" cy="220" rx="210" ry="34" fill="#0f0f12"/>
+    <path d="M-20 130 a200 62 0 0 1 400 0" fill="none" stroke="#ffd21f" stroke-width="14" stroke-linecap="round"/>
+    <path d="M-14 138 a192 54 0 0 1 388 0" fill="none" stroke="#25d366" stroke-width="6" opacity="0.7"/>
+    <g stroke="#3d3d46" stroke-width="8" stroke-linecap="round">
+      <line x1="20" y1="150" x2="6" y2="222"/>
+      <line x1="340" y1="150" x2="354" y2="222"/>
+      <line x1="120" y1="176" x2="116" y2="228"/>
+      <line x1="240" y1="176" x2="244" y2="228"/>
+    </g>
+    <!-- saltos em arco -->
+    <path d="M60 96 q56 -70 112 0" stroke="#ffd21f" stroke-width="5" fill="none" stroke-dasharray="10 12" stroke-linecap="round"/>
+    <circle cx="216" cy="70" r="14" fill="#ffd21f"/>
+  </g>
+
+  <!-- balões -->
+  <g>
+    <ellipse cx="760" cy="330" rx="26" ry="34" fill="#ffd21f"/>
+    <path d="M760 364 q-6 30 4 56" stroke="#3d3d46" stroke-width="3" fill="none"/>
+    <ellipse cx="812" cy="380" rx="22" ry="29" fill="#f4f4f6" opacity="0.85"/>
+    <path d="M812 409 q6 24 -2 46" stroke="#3d3d46" stroke-width="3" fill="none"/>
+    <ellipse cx="712" cy="392" rx="20" ry="26" fill="#25d366" opacity="0.8"/>
+    <path d="M712 418 q-5 22 3 42" stroke="#3d3d46" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- chão -->
+  <rect y="716" width="1440" height="94" fill="#0d0d0f"/>
+  <path d="M0 716 h1440" stroke="#ffd21f" stroke-width="3" opacity="0.5"/>
+</svg>

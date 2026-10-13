@@ -1,0 +1,12 @@
+# Backups e temporários
+*.bak
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Originais baixados do Google Maps (não publicar)
+img/_maps/
+
+# Pastas locais de editor
+.vscode/
+.idea/
